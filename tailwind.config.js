@@ -9,7 +9,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'MontserratRegular',
+        'Montserrat',
         'Roboto',
         '"Helvetica Neue"',
         'Arial',
