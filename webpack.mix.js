@@ -1,4 +1,6 @@
 let mix = require('laravel-mix');
+require('laravel-mix-purgecss');
+
 
 /*
  |--------------------------------------------------------------------------
@@ -14,11 +16,16 @@ let mix = require('laravel-mix');
 // mix.js('src/app.js', 'dist/').sass('src/app.scss', 'dist/');
 
 mix
-.js('src/index.js', 'dist/index.js')
-.postCss('src/styles/main.css', 'dist/main.css', [
-  require('tailwindcss'),
-  require('postcss-nested'),
-]).setPublicPath('dist').browserSync();
+  // .copy('/src/index.html', 'dist/index.html')
+  .js('src/index.js', 'dist/index.js')
+  .postCss('src/styles/main.css', 'dist/main.css', [
+    require('tailwindcss'),
+    require('postcss-nested'),
+  ])
+  .purgeCss({
+    folders: ['dist']
+  })
+  .setPublicPath('dist').browserSync();
 
 // mix.js('src/app.js', 'dist/app.js');
 
