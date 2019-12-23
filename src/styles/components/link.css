@@ -1,0 +1,27 @@
+.link {
+  @apply text-primary underline transition-all;
+  &:hover {
+    @apply text-secondary bg-primary transition-all;
+  }
+}
+
+.link-external {
+  > svg {
+    @apply px-1 inline transition-opacity;
+    opacity: 0;
+  }
+  
+  &:hover > svg {
+    opacity: 1;
+  }
+}
+
+.link-icon {
+  > svg {
+    @apply px-1 inline text-secondary bg-primary rounded-full transition-all;
+  }
+  
+  &:hover > svg {
+    @apply text-primary bg-secondary;
+  }
+}

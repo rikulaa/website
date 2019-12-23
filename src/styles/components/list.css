@@ -1,0 +1,5 @@
+.list-dash {
+  li:before {
+    content: "- ";
+  }
+}

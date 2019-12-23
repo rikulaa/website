@@ -1,0 +1,24 @@
+.theme-light {
+  --color-primary: #242424;
+  --color-secondary: #ffffff;
+  --color-ancillary: #b5b5b5;
+  fill: currentColor;
+
+  /* --color-primary: #1A202C;
+  --color-secondary: #FFFFFF; */
+}
+.theme-dark {
+  --color-primary: rgb(227, 228, 233);
+  --color-secondary: #1b1b1b;
+  --color-ancillary: #AC9779;
+  fill: currentColor;
+  /* --color-secondary: #2D3039; */
+}
+
+@tailwind base;
+
+@tailwind components;
+@import "./components/link.css";
+@import "./components/list.css";
+
+@tailwind utilities;
