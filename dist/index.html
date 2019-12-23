@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Riku Laajala - Full Stack Developer</title>
+    <meta name="Description" content="Riku Laajala's personal website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- speed up font loading https://medium.com/clio-calliope/making-google-fonts-faster-aadf3c02a36d -->
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link async href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="main.css" />
   </head>
   <body id="body" class="font-sans text-primary bg-secondary transition-all theme-light">
@@ -13,7 +15,7 @@
       <nav class="absolute top-0 right-0">
         <ul class="m-4">
           <li>
-              <button class="text-primary" id="theme-switch">
+              <button class="text-primary" id="theme-switch" aria-label="Site theme switch">
                   <div id="theme-light-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
                   </div>
@@ -73,7 +75,9 @@
               <a
                 href="https://meiko.fi/"
                 target="_blank"
+                rel="noopener"
                 class="link-external text-primary"
+                aria-label="Read more about Meiko Oy"
               >
                 Meiko Oy
                 <svg
@@ -133,15 +137,16 @@
             <a
               class="link"
               href="https://www.linkedin.com/in/riku-laajala-684a69183/"
+              aria-label="LindedIn contact link"
               >LinkedIn</a
             >
             or via email at</span
           >
-          <a class="link" href="mailto:riku.laajala@gmail.com"
+          <a class="link" href="mailto:riku.laajala@gmail.com" aria-label="Email contact link"
             >riku.laajala@gmail.com</a
           >
         </div>
-        <a class="link-icon" target="_blank" href="https://github.com/rikulaa"
+        <a class="link-icon" target="_blank" rel="noopener" href="https://github.com/rikulaa" aria-label="Github profile"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
