@@ -132,6 +132,15 @@ var setTheme = function setTheme(newTheme) {
 
 
 var loadTheme = function loadTheme(theme) {
+  // Load theme based on the OS's preferred color scheme
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    setTheme(themes[0]);
+    return;
+  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    setTheme(themes[1]);
+    return;
+  }
+
   var savedTheme = localStorage.getItem(THEME_KEY);
 
   if (savedTheme) {

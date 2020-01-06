@@ -41,6 +41,15 @@ const setTheme = newTheme => {
  * @returns
  */
 const loadTheme = theme => {
+  // Load theme based on the OS's preferred color scheme
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    setTheme(themes[0]);
+    return;
+  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    setTheme(themes[1]);
+    return;
+  }
+
   const savedTheme = localStorage.getItem(THEME_KEY);
   if (savedTheme) {
     setTheme(savedTheme);
