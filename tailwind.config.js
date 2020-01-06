@@ -37,7 +37,9 @@ module.exports = {
       ],
     },
   },
-  variants: {},
+  variants: {
+    padding: ['responsive', 'hover'],
+  },
   plugins: [
     function({ addUtilities, addComponents, e, prefix, config }) {
       // This function is your plugin
