@@ -39,6 +39,9 @@ module.exports = {
   },
   variants: {
     padding: ['responsive', 'hover'],
+    margin: ['responsive', 'hover'],
+    fontSize: ['focus'],
+    borderWidth: ['responsive', 'hover', 'focus'],
   },
   plugins: [
     function({ addUtilities, addComponents, e, prefix, config }) {
