@@ -1,11 +1,13 @@
+const COLORS = {
+  primary: "var(--color-primary)",
+  secondary: "var(--color-secondary)",
+  ancillary: "var(--color-ancillary)"
+}
+
 module.exports = {
   theme: {
     extend: {
-      colors: {
-        primary: "var(--color-primary)",
-        secondary: "var(--color-secondary)",
-        ancillary: "var(--color-ancillary)"
-      }
+      colors: COLORS
     },
     fontFamily: {
       sans: [
@@ -55,7 +57,14 @@ module.exports = {
         return acc;
       }, {});
 
-      addUtilities(transitions)
+      const outlineColors = Object.keys(COLORS).reduce((acc, key) => {
+        acc[`.shadow-outline-${key}`] = {
+          'box-shadow': `0 0 0 2px ${COLORS[key]}`
+        }
+        return acc;
+      }, {})
+
+      addUtilities({...transitions, ...outlineColors}, ['responsive', 'hover', 'focus'])
     },
   ]
 };

@@ -1,7 +1,10 @@
 .link {
-  @apply text-primary underline transition-all;
+  @apply text-primary underline transition-all outline-none;
   &:hover {
     @apply text-secondary bg-primary transition-all;
+  }
+  &:focus {
+      @apply outline-none shadow-outline-primary
   }
 }
 
@@ -14,9 +17,18 @@
   &:hover > svg {
     opacity: 1;
   }
+
+  &:focus {
+      @apply outline-none shadow-outline-primary
+  }
 }
 
 .link-icon {
+  @apply outline-none;
+
+  &:focus {
+    @apply outline-none shadow-outline-primary
+  }
   > svg {
     @apply px-1 inline text-secondary bg-primary rounded-full transition-all;
   }
@@ -24,4 +36,5 @@
   &:hover > svg {
     @apply text-primary bg-secondary;
   }
+
 }
