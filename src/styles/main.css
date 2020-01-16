@@ -17,6 +17,7 @@
 @tailwind components;
 @import "./components/link.css";
 @import "./components/list.css";
+@import "./components/button.css";
 
 @tailwind utilities;
 

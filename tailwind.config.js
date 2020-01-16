@@ -9,6 +9,14 @@ module.exports = {
     extend: {
       colors: COLORS
     },
+
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '0': '0px',
+      '1': '1px',
+    },
     fontFamily: {
       sans: [
         'Montserrat',

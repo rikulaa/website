@@ -1,26 +1,16 @@
 .link {
-  @apply text-primary underline transition-all outline-none;
+  @apply text-primary transition-all outline-none;
   &:hover {
-    @apply text-secondary bg-primary transition-all;
+    @apply text-secondary transition-all;
+    background-size: 100% 100%;
   }
   &:focus {
-      @apply outline-none shadow-outline-primary
+    @apply outline-none shadow-outline-primary
   }
-}
-
-.link-external {
-  > svg {
-    @apply px-1 inline transition-opacity;
-    opacity: 0;
-  }
-  
-  &:hover > svg {
-    opacity: 1;
-  }
-
-  &:focus {
-      @apply outline-none shadow-outline-primary
-  }
+  background-image: linear-gradient(to top,var(--color-primary),var(--color-primary));
+  background-size: 100% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
 }
 
 .link-icon {

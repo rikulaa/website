@@ -1,0 +1,14 @@
+.button {
+  @apply text-primary transition-all outline-none px-6 py-2 border-primary border outline-none;
+  &:hover {
+    @apply text-secondary transition-all;
+    background-size: 100% 100%;
+  }
+  &:focus {
+    @apply outline-none shadow-outline-primary;
+  }
+  background-image: linear-gradient(to top,var(--color-primary),var(--color-primary));
+  background-size: 100% 0px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
