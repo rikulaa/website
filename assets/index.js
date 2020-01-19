@@ -1,15 +1,32 @@
 const THEME_KEY = "theme";
-const themes = ["theme-dark", "theme-light"];
+const themes = ["dark", "light"];
 
-const themeSwitch = document.getElementById("theme-switch");
-if (themeSwitch) {
-  themeSwitch.addEventListener("click", e => {
-    const currentTheme =
-      document.body.className.match(/theme-[a-zA-Z]+/)[0] || null;
-    const newTheme = currentTheme === themes[0] ? themes[1] : themes[0];
-    setTheme(newTheme);
-  });
-}
+// setup listener
+window.addEventListener('load', function () {
+  const themeSwitch = document.getElementById("theme-switch");
+  if (themeSwitch) {
+    themeSwitch.addEventListener("click", e => {
+      const currentTheme = sessionStorage.getItem(THEME_KEY);
+      const newTheme = currentTheme === themes[0] ? themes[1] : themes[0];
+      setTheme(newTheme);
+
+      const newIconEl = document.getElementById(`${newTheme}-icon`);
+      if (newIconEl) {
+        newIconEl.classList.remove("hidden");
+      }
+
+
+      // Remove old theme
+      // if (currentTheme && currentTheme !== newTheme) {
+      //   // document.body.classList.remove(currentTheme);
+      //   const currentThemeIcon = document.getElementById(`${currentTheme}-icon`);
+      //   if (currentThemeIcon) {
+      //     currentThemeIcon.classList.add("hidden");
+      //   }
+      // }
+    });
+  }
+})
 
 /**
  * Set the provided theme to webpage
@@ -17,25 +34,7 @@ if (themeSwitch) {
  * @param {string} newTheme
  */
 const setTheme = newTheme => {
-  const currentTheme =
-    document.body.className.match(/theme-[a-zA-Z]+/)[0] || null;
-
-  // Add the new theme
-  document.body.classList.add(newTheme);
-  const newIconEl = document.getElementById(`${newTheme}-icon`);
-  if (newIconEl) {
-    newIconEl.classList.remove("hidden");
-  }
- 
-
-  // Remove old theme
-  if (currentTheme && currentTheme !== newTheme) {
-    document.body.classList.remove(currentTheme);
-    const currentThemeIcon = document.getElementById(`${currentTheme}-icon`);
-    if (currentThemeIcon) {
-      currentThemeIcon.classList.add("hidden");
-    }
-  }
+  document.documentElement.setAttribute('data-theme', newTheme);
   sessionStorage.setItem(THEME_KEY, newTheme);
 };
 

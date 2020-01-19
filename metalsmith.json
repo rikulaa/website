@@ -1,0 +1,18 @@
+{
+  "source": "src",
+  "destination": "dist",
+  "metadata": {"test": "ASDF"},
+  "plugins": {
+    "metalsmith-asciidoctor": true,
+    "metalsmith-collections": {
+      "posts":  {
+        "sortBy": "date",
+        "reverse": true
+      }
+    },
+    "metalsmith-layouts": {
+        "directory": "_templates",
+        "default": "layout.njk"
+    }
+  }
+}

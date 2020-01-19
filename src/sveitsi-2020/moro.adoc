@@ -1,0 +1,11 @@
+---
+title: Toinen postaus
+collection: posts
+layout: layout.njk
+date: 2020-01-02
+---
+
+== Toinen postaus
+
+
+Tamahan on jo aivan jotain smuuta

@@ -1,0 +1,72 @@
+/* js is disabled, we can only work with css */
+@media (prefers-color-scheme: dark) {
+    --color-primary: rgb(227, 228, 233);
+    --color-secondary: #1b1b1b;
+    --color-ancillary: #AC9779;
+    fill: currentColor;
+    .theme-light-hidden * {
+        display: none;
+    }
+}
+@media (prefers-color-scheme: light) {
+    --color-primary: #242424;
+    --color-secondary: #ffffff;
+    --color-ancillary: #b5b5b5;
+    fill: currentColor;
+    .theme-dark-hidden * {
+        display: none;
+    }
+}
+
+/* use dark theme by default so eye's won't be burned by accident */
+html[data-theme="dark"] {
+    --color-primary: rgb(227, 228, 233);
+    --color-secondary: #1b1b1b;
+    --color-ancillary: #AC9779;
+    fill: currentColor;
+    .theme-light-hidden * {
+        display: none;
+    }
+}
+html[data-theme="light"] {
+    --color-primary: #242424;
+    --color-secondary: #ffffff;
+    --color-ancillary: #b5b5b5;
+    fill: currentColor;
+    .theme-dark-hidden * {
+        display: none;
+    }
+}
+
+@tailwind base;
+
+@tailwind components;
+@import "./components/link.css";
+@import "./components/list.css";
+@import "./components/button.css";
+
+@tailwind utilities;
+
+::selection {
+    @apply bg-ancillary;
+}
+
+/* default styles */
+h1 {
+    @apply text-6xl mb-10;
+}
+h2 {
+    @apply text-4xl mb-8;
+}
+h3 {
+    @apply text-2xl mb-6;
+}
+h4 {
+    @apply text-xl mb-4;
+}
+h5 {
+    @apply text-lg mb-2;
+}
+p {
+    @apply mb-4 text-base;
+}

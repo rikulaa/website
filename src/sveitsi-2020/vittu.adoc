@@ -1,0 +1,10 @@
+---
+title: Testiii
+collection: posts
+layout: layout.njk
+date: 2020-01-01
+---
+
+AATANA
+oisko mitenkään mahdollista
+ 
