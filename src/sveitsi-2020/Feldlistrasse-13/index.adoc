@@ -4,6 +4,7 @@ collection: sveitsi-2020
 layout: post.njk
 date: 2020-02-25
 noIndex: true
+draft: true
 ---
 
 asunto
