@@ -4,6 +4,7 @@
   "metadata": {"test": "ASDF"},
   "plugins": {
     "metalsmith-asciidoctor": true,
+    "metalsmith-drafts": true,
     "metalsmith-collections": {
       "posts":  {
         "sortBy": "date",
