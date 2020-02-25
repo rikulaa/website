@@ -19,6 +19,9 @@
         <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#000000">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
+        {% if noIndex == true %}
+            <meta name="robots" content="noindex">
+        {% endif %}
     </head>
     <body id="body" class="font-sans text-primary bg-secondary {{layout | replace(".njk", "")}}">
         <nav class="container relative mx-auto px-4 md:px-8">

@@ -2,4 +2,5 @@
 title: Listas
 layout: posts.njk
 currentCollection: sveitsi-2020
+noIndex: true
 ---
