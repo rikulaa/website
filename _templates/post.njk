@@ -1,0 +1,39 @@
+{% extends "layout.njk" %}
+
+{% block body %}
+    <div class="max-w-2xl mx-auto">
+        <div class="backdrop" data-bg="{{ backdrop }}" >
+            <h1 class="mb-0">{{ title }}</h1>
+            <p class="mb-10">{{ date.toLocaleDateString('fi-FI') }}</p>
+        </div>
+        {{ contents | safe}}
+
+        <div class="flex mt-24 mb-24">
+            <div class="flex-1">
+                {% if previous %}
+                <a
+                    href="/{{ previous.path}}"
+                    class="link"
+                    >Edellinen:  {{ previous.title }}
+                </a>
+                    {% endif %}
+            </div>
+            <div class="flex-1 text-center">
+                <a
+                    class="link"
+                    href="/{{ collection }}"
+                    >{{ collections[collection].metadata.name }}
+                </a>
+            </div>
+            <div class="flex-1 text-right">
+                {% if next %}
+                    <a
+                        href="/{{ next.path}}"
+                        class="link"
+                        >Seuraava:  {{ next.title }}
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -17,15 +17,17 @@ require('laravel-mix-purgecss');
 
 mix
   // .copy('/src/index.html', 'dist/index.html')
-  .js('src/index.js', 'dist/index.js')
-  .postCss('src/styles/main.css', 'dist/main.css', [
+  .js('assets/index.js', 'dist/index.js')
+  .postCss('assets/styles/main.css', 'dist/main.css', [
     require('tailwindcss'),
     require('postcss-nested'),
   ])
   .purgeCss({
     folders: ['dist']
   })
-  .setPublicPath('dist').browserSync();
+  .setPublicPath('dist')
+  .copyDirectory('assets', 'dist/assets')
+  .browserSync();
 
 // mix.js('src/app.js', 'dist/app.js');
 
