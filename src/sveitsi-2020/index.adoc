@@ -1,5 +1,5 @@
 ---
-title: Listas
+title: Sveitsi 2020
 layout: posts.njk
 currentCollection: sveitsi-2020
 noIndex: true
