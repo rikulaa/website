@@ -1,13 +1,17 @@
 {% extends "layout.njk" %}
 
 {% block body %}
-  {{ contents | safe}}
+    <div class="max-w-2xl mx-auto">
+        {{ contents | safe}}
+        <h2>{{ collections[currentCollection].metadata.name }}</h2>
+        <p>{{ collections[currentCollection].metadata.description }}</p>
 
-  {% for post in collections.posts %}
-    <li>
-      <a class="link" rel="prefetch" href="/{{post.path}}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-
-
+        {% for post in collections[currentCollection] %}
+            <ol>
+                <li>
+                    <a class="link" rel="prefetch" href="/{{post.path}}">{{ post.title }}</a>
+                </li>
+            <ol>
+        {% endfor %}
+    </div>
 {% endblock %}
