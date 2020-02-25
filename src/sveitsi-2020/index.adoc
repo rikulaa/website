@@ -1,10 +1,5 @@
 ---
 title: Listas
 layout: posts.njk
+currentCollection: sveitsi-2020
 ---
- 
-== Abenteuer in der Schweiz
-
-__Seikkailu Sveitsissä__
-
-Erinäisiä kirjoituksia Sveitsin matkalta.
