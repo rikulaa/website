@@ -8,6 +8,11 @@
       "posts":  {
         "sortBy": "date",
         "reverse": true
+      },
+      "sveitsi-2020":  {
+        "sortBy": "date",
+        "reverse": true,
+        "metadata": "src/sveitsi-2020/metadata.json"
       }
     },
     "metalsmith-layouts": {
