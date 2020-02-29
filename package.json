@@ -12,7 +12,7 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "metalsmith": "DEBUG=metalsmith-layouts metalsmith",
     "optimize-images": "lepto -c lepto.config.json",
-    "build": "yarn metalsmith && yarn prod && yarn optimize-images"
+    "build": "yarn metalsmith && yarn prod"
   },
   "author": "Riku Laajala",
   "license": "ISC",

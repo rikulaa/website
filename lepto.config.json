@@ -1,6 +1,6 @@
 {
-  "input": "src",
-  "output": "dist",
+  "input": "test",
+  "output": "src",
   "watch": false,
   "openGUI": true,
   "dataOutput": "lepto.config.json",
