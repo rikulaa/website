@@ -2,7 +2,6 @@
 
 {% block body %}
     <div class="max-w-2xl mx-auto">
-        {{ contents | safe}}
         <h2>{{ collections[currentCollection].metadata.name }}</h2>
         <p>{{ collections[currentCollection].metadata.description }}</p>
 
@@ -13,5 +12,7 @@
                 </li>
             <ol>
         {% endfor %}
+
+		{{ contents | safe}}
     </div>
 {% endblock %}
