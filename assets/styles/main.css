@@ -45,7 +45,6 @@ html[data-theme="light"] {
 @import "./components/list.css";
 @import "./components/button.css";
 
-@tailwind utilities;
 
 ::selection {
     @apply bg-ancillary;
@@ -53,20 +52,31 @@ html[data-theme="light"] {
 
 /* default styles */
 h1 {
-    @apply text-6xl mb-10;
+    @apply text-6xl mb-10 mt-12;
 }
 h2 {
-    @apply text-4xl mb-8;
+    @apply text-4xl mb-8 mt-10;
 }
 h3 {
-    @apply text-2xl mb-6;
+    @apply text-2xl mb-6 mt-8;
 }
 h4 {
-    @apply text-xl mb-4;
+    @apply text-xl mb-4 mt-6;
 }
 h5 {
-    @apply text-lg mb-2;
+    @apply text-lg mb-2 mt-4;
 }
 p {
     @apply mb-4 text-base;
 }
+iframe {
+    @apply mb-4;
+}
+.imageblock {
+   @apply mb-4;
+  .title {
+    @apply mt-1;
+  }
+} 
+
+@tailwind utilities;

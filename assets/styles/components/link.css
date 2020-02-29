@@ -1,4 +1,4 @@
-.link {
+a:not(.link-icon), .link {
   @apply text-primary transition-all outline-none;
   &:hover {
     @apply text-secondary transition-all;
@@ -22,7 +22,7 @@
   > svg {
     @apply px-1 inline text-secondary bg-primary rounded-full transition-all;
   }
-  
+
   &:hover > svg {
     @apply text-primary bg-secondary;
   }
