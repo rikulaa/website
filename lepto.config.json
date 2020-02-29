@@ -1,0 +1,161 @@
+{
+  "input": "src",
+  "output": "dist",
+  "watch": true,
+  "openGUI": true,
+  "dataOutput": "lepto.config.json",
+  "filters": [
+    {
+      "glob": [
+        "**/*.jpg",
+        "**/*.jpeg"
+      ],
+      "use": [
+        {
+          "name": "lepto-resize",
+          "maxWidth": 1200
+        },
+        "lepto-vibrant-color",
+        {
+          "name": "lepto.jpeg",
+          "quality": 70
+        }
+      ]
+    },
+    {
+      "glob": "**/*.png",
+      "use": [
+        {
+          "name": "lepto-resize",
+          "retina": [
+            2
+          ]
+        },
+        {
+          "name": "lepto.png",
+          "quality": "70-80"
+        }
+      ]
+    }
+  ],
+  "sveitsi-2020/Feldlistrasse-13/sarvet.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#c4ac7c",
+      "lightVibrant": "#d5c5a3",
+      "darkVibrant": "#5b4a29",
+      "muted": "#8d8377",
+      "lightMuted": "#cabfac",
+      "darkMuted": "#4d4533"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/talo.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#804c24",
+      "lightVibrant": "#dcc0a3",
+      "darkVibrant": "#5c2c14",
+      "muted": "#87725d",
+      "lightMuted": "#d4bb9f",
+      "darkMuted": "#47382c"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/was-ist-das.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#ca9534",
+      "lightVibrant": "#f8f1e4",
+      "darkVibrant": "#694d1b",
+      "muted": "#898473",
+      "lightMuted": "#ccc3b1",
+      "darkMuted": "#4b443d"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/puhveli.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#94856a",
+      "lightVibrant": "#c7bfb1",
+      "darkVibrant": "#4d4537",
+      "muted": "#948b79",
+      "lightMuted": "#c8c0b2",
+      "darkMuted": "#3e4246"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/kukkula.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#d78058",
+      "lightVibrant": "#c19f7e",
+      "darkVibrant": "#62652c",
+      "muted": "#af7254",
+      "lightMuted": "#a8bacc",
+      "darkMuted": "#474133"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/luostarin-aukio.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#bc7f5b",
+      "lightVibrant": "#ebf3fc",
+      "darkVibrant": "#593318",
+      "muted": "#ac9c64",
+      "lightMuted": "#c6c3b3",
+      "darkMuted": "#50372a"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/puisto.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#c46c54",
+      "lightVibrant": "#a3c3e1",
+      "darkVibrant": "#5f501c",
+      "muted": "#96845a",
+      "lightMuted": "#8eabce",
+      "darkMuted": "#423a24"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/olohuone.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#c3863b",
+      "lightVibrant": "#e0c099",
+      "darkVibrant": "#65451e",
+      "muted": "#8d7f6a",
+      "lightMuted": "#c0b7ab",
+      "darkMuted": "#513e2b"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/makuuhuone2.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#4c8cbc",
+      "lightVibrant": "#e1ecfc",
+      "darkVibrant": "#466e99",
+      "muted": "#8f7f6c",
+      "lightMuted": "#c7b8a6",
+      "darkMuted": "#584636"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/keittio.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#ecd474",
+      "lightVibrant": "#f8ede2",
+      "darkVibrant": "#74600f",
+      "muted": "#8c8579",
+      "lightMuted": "#ccb4a4",
+      "darkMuted": "#564937"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/makuuhuone1.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#b06c4e",
+      "lightVibrant": "#e6cfb0",
+      "darkVibrant": "#653e2d",
+      "muted": "#8c816e",
+      "lightMuted": "#cab59b",
+      "darkMuted": "#695b48"
+    }
+  },
+  "sveitsi-2020/Feldlistrasse-13/eteinen.jpeg": {
+    "vibrantColor": {
+      "vibrant": "#a87446",
+      "lightVibrant": "#d7a371",
+      "darkVibrant": "#653c0e",
+      "muted": "#9c7a65",
+      "lightMuted": "#d4c1b4",
+      "darkMuted": "#4b3926"
+    }
+  }
+}
