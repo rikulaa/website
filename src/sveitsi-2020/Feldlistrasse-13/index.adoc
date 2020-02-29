@@ -15,7 +15,9 @@ St. Gallen on väkiluvultaan melko pieni/keskikokoinen, vakinaisia asukkaita tä
 Se vastaa väkiluvultaan melko lähelle Suomen 13:nneksi suurimman kaupungin https://fi.wikipedia.org/wiki/Lappeenranta[Lappeenrannan] väkilukua.
 
 ++++
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1601419.9163719267!2d7.104246293360655!3d46.78996487314719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b1e297633d855%3A0x9a2250081ffe6114!2sSt.%20Gallen!5e0!3m2!1sfi!2sch!4v1582978885374!5m2!1sfi!2sch" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<div class="map-responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1601419.9163719267!2d7.104246293360655!3d46.78996487314719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b1e297633d855%3A0x9a2250081ffe6114!2sSt.%20Gallen!5e0!3m2!1sfi!2sch!4v1582978885374!5m2!1sfi!2sch" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
 ++++
 
 Kaupunki ympäristöineen vaikuttaa myös siistiltä.
