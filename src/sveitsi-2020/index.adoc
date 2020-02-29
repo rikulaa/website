@@ -4,3 +4,5 @@ layout: posts.njk
 currentCollection: sveitsi-2020
 noIndex: true
 ---
+
+Julkinen kuva-albumi löytyy https://www.icloud.com/sharedalbum/#B0IJtdOXm8TrxOt[täältä].
