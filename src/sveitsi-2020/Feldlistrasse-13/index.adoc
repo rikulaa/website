@@ -85,7 +85,7 @@ Kompaktista keittiöstä löytyy jopa astianpesukone, jonka käyttäminen useimm
 .Olohuone
 image::./olohuone.jpeg[caption="", link=./olohuone.jpeg]
 
-Olohuoneessa ei ole kattolamppua mutta onneksi vuokrantajaa ystävällisesti näytti, kuinka nurkassa olevan jalkalampun saa sammutettua/laitettua päälle valokatkaisijasta.
+Olohuoneessa ei ole kattolamppua mutta onneksi vuokrantaja ystävällisesti näytti, kuinka nurkassa olevan jalkalampun saa sammutettua/laitettua päälle valokatkaisijasta.
 Tiedä sitten kenen idea tämä oli.
 
 .Makuuhuone (pienempi)
@@ -107,7 +107,7 @@ Ensimmäisenä yönä oli "mukava" herätä keskellä yötä melko kovaan kolahd
 Ensimmäinen ajatus oli että joku yrittää murtautua tänne, mutta pienen tutkinnan perusteella huomattiin että ääni johtuikin vain noista vapaana heiluvista tuulisuojista.
 
 Makuuhuoneen tuulisuoja saatiin onneksi kiinnitettyä heti mutta keittiön sekä olohuoneen suojia ei onnistuttu saamaan kiinni yöllä.
-Tuulisuojista johtuva melu oli näemmä pitänyt hereillä myös yläkerran pariskuntaa. Myöhemmin viikolla, tulee tuo eläkeläismies reippaasti sisälle keskellä päivää ja kävellen huitelee olohuoneen ikkunaa kohden.
+Tuulisuojista johtuva melu oli näemmä pitänyt hereillä myös yläkerran pariskuntaa. Myöhemmin viikolla tulee tuo eläkeläismies reippaasti sisälle keskellä päivää ja kävellen huitelee olohuoneen ikkunaa kohden.
 Hän kuitenkin näytti miten tuo tuulisuoja saadaan lukittautumaan, joten ne eivät enään ainakaan pidä ääntä 😄.
 
 Meidän lisäksi asunnosta löytyy myös aiempia "vuokralaisia".
@@ -118,7 +118,7 @@ Istuin olohuoneen sohvalla töitä tehden, kunnes huomasin sivusilmällä jonkin
 Nostin katsetta ja huomasin kuinka hämähäkki vipeltää huoneen toiselta puolelta kohti sohvan vieressä olevaa nurkkaa.
 Hieman nousi adrenaliinitasot kun näin että tuollainen n. 5cm kokoinen (halkaisijaltaan) hämähäkki juoksee kohti.
 En ole siis luonnossa, vapaana koskaan nähnyt noin isoa hämähäkkiä.
-Koska olimme hiljattain muuttaneet, ei meillä asunnossa vielä ollut mitään lehtiä yms millä ois voinut tuota hämähäkkiä lyödä.
+Koska olimme hiljattain muuttaneet, ei meillä asunnossa vielä ollut mitään lehtiä yms millä olisi voinut tuota hämähäkkiä lyödä.
 Onneksi keittiöstä kuitenkin löytyi uusi https://www.ikea.com/us/en/p/finfoerdela-flexible-chopping-board-dark-gray-dark-turquoise-30335898/[Ikean ohut ja taipuisa leikkausalusta], joka tarpeen tullen toimi oikein hyvin lyömäaseena.
 Hämähäkin oikeasta lajista en täysin ole varma mutta uskoisin sen nimensä mukaisesti olevan https://en.wikipedia.org/wiki/Giant_house_spider[Giant house spider (varastohämähäkki)], jota esiintyy sekä Sveitsissä että Suomessa.
 
