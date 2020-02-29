@@ -35,6 +35,8 @@ Tätä polkua kävellessä pääse kaupunkia katselemaan hieman korkeammasta per
 .Luostarin aukio
 image::./luostarin-aukio.jpeg[caption="", link=./luostarin-aukio.jpeg]
 
+Vanhan luostarin vieressä sijaitseva aukio. Pihan keskellä 
+
 == Talo
 
 
@@ -138,7 +140,7 @@ Tästä syystä täällä ei kuitenkaan jätetä puolityhjiä roskapusseja tienv
 
 Roskat haetaan meiltä täältä kerran viikossa, maanantaisin.
 Joudumme siis viemään roskat talon ulkopuolelle klo 7 aikaan aamulla, josta ne sitten poimitaan kyytiin jossain vaiheessa päivää.
-Suomen jätehuoltoon tottuneena, tämä tuntuu hieman työläältä mutta maassa maan tavalla.
+Suomen jätehuoltoon tottuneena tämä tuntuu hieman työläältä mutta maassa maan tavalla.
 
 Kuulin myös kehuttavan kuinka hyvin Sveitsissä kierrätetään.
 No, ainakin meidän lähialueellamme nuo kierrätysvaihtoehdot näyttävät melko kehnoilta (ainakin siltä osin mitä olemme ympäristöön tutustuneet).
