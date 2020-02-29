@@ -35,7 +35,7 @@ Tätä polkua kävellessä pääse kaupunkia katselemaan hieman korkeammasta per
 .Luostarin aukio
 image::./luostarin-aukio.jpeg[caption="", link=./luostarin-aukio.jpeg]
 
-Vanhan luostarin vieressä sijaitseva aukio. Pihan keskellä 
+Vanhan luostarin vieressä sijaitseva aukio.
 
 == Talo
 
