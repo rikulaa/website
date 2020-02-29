@@ -1,7 +1,7 @@
 {
   "input": "src",
   "output": "dist",
-  "watch": true,
+  "watch": false,
   "openGUI": true,
   "dataOutput": "lepto.config.json",
   "filters": [

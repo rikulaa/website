@@ -29,6 +29,7 @@
     "laravel-mix": "^5.0.1",
     "laravel-mix-purgecss": "^4.2.0",
     "lepto": "^1.2.0",
+    "lepto-cli": "^1.2.0",
     "lepto-resize": "^1.0.1",
     "lepto-vibrant-color": "^1.0.0",
     "metalsmith": "^2.3.0",
