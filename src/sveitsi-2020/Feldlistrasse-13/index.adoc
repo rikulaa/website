@@ -2,7 +2,7 @@
 title: Feldlistrasse 13
 collection: sveitsi-2020
 layout: post.njk
-date: 2020-02-25
+date: 2020-02-29
 ---
 
 == St. Gallen
