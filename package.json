@@ -11,6 +11,7 @@
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "metalsmith": "DEBUG=metalsmith-layouts metalsmith",
+    "optimize-images": "lepto -c lepto.config.json",
     "build": "yarn metalsmith && yarn prod"
   },
   "author": "Riku Laajala",
@@ -27,6 +28,10 @@
     "jstransformer-nunjucks": "^1.0.0",
     "laravel-mix": "^5.0.1",
     "laravel-mix-purgecss": "^4.2.0",
+    "lepto": "^1.2.0",
+    "lepto-cli": "^1.2.0",
+    "lepto-resize": "^1.0.1",
+    "lepto-vibrant-color": "^1.0.0",
     "metalsmith": "^2.3.0",
     "metalsmith-asciidoc": "^1.1.0",
     "metalsmith-asciidoctor": "^1.1.2",

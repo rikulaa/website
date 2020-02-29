@@ -1,24 +1,23 @@
 {
-  "source": "src",
-  "destination": "dist",
-  "metadata": {"test": "ASDF"},
-  "plugins": {
-    "metalsmith-asciidoctor": true,
-    "metalsmith-drafts": true,
-    "metalsmith-collections": {
-      "posts":  {
-        "sortBy": "date",
-        "reverse": true
-      },
-      "sveitsi-2020":  {
-        "sortBy": "date",
-        "reverse": true,
-        "metadata": "src/sveitsi-2020/metadata.json"
-      }
-    },
-    "metalsmith-layouts": {
-        "directory": "_templates",
-        "default": "layout.njk"
+    "source": "src",
+    "destination": "dist",
+    "plugins": {
+        "metalsmith-asciidoctor": true,
+        "metalsmith-drafts": true,
+        "metalsmith-collections": {
+            "posts":  {
+                "sortBy": "date",
+                "reverse": true
+            },
+            "sveitsi-2020":  {
+                "sortBy": "date",
+                "reverse": true,
+                "metadata": "src/sveitsi-2020/metadata.json"
+            }
+        },
+        "metalsmith-layouts": {
+            "directory": "_templates",
+            "default": "layout.njk"
+        }
     }
-  }
 }

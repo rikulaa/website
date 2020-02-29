@@ -3,3 +3,16 @@
     content: "- ";
   }
 }
+
+.ulist {
+  ul {
+    @apply pl-8;
+    li {
+      list-style-type: circle;
+      * {
+        @apply mb-0;
+      }
+    }
+    @apply mb-2;
+  }
+}
