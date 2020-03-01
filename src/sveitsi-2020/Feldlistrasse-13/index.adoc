@@ -153,4 +153,8 @@ Kierrätyksen osalta kuitenkin vaikuttaisi että Suomi vie pidemmän korren, ain
 
 Lisää kuvia pystyy selaamaan https://www.icloud.com/sharedalbum/#B0IJtdOXm8TrxOt[täältä].
 
+++++
+<div id="commento"></div>
+<script src="https://commento.rikulaajala.com/js/commento.js"></script>
+++++
 
