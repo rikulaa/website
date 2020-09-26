@@ -23,7 +23,7 @@ mix
     require('postcss-nested'),
   ])
   .purgeCss({
-    folders: ['dist']
+    content: ['dist']
   })
   .setPublicPath('dist')
   .copyDirectory('assets', 'dist/assets')
