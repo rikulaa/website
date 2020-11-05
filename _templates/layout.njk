@@ -24,11 +24,15 @@
         {% endif %}
     </head>
     <body id="body" class="font-sans text-primary bg-secondary {{layout | replace(".njk", "")}}">
+        <a class="skip-to-content-link transform translate-y-0 focus:translate-y-0" href="#main">
+            Skip to content
+        </a>
+
         <nav class="container relative mx-auto px-4 md:px-8">
             {% block nav %}
                 <ul class="my-4 flex">
                     <li class="flex-1 text-right">
-                        <button class="text-primary outline-none focus:outline-none tooltip text-xs" id="theme-switch" aria-label="Site theme switch">
+                        <button class="text-primary outline-none focus:outline-none tooltip text-xs focus:shadow-outline-primary" id="theme-switch" aria-label="Site theme switch">
                             <noscript>
                                 <p class="inline pr-2 h-100">Enable JavaScript to change color scheme!</p>
                             </noscript>
@@ -44,7 +48,7 @@
             {% endblock %}
         </nav>
 
-        <div class="container relative mx-auto px-4 md:px-8">
+        <div id="main" class="container relative mx-auto px-4 md:px-8">
             {% block body %}
                 {{contents | safe}}
             {% endblock %}

@@ -1,4 +1,4 @@
-a:not(.link-icon), .link {
+a:not(.link-icon):not(.skip-to-content-link), .link {
   @apply text-primary transition-all outline-none;
   &:hover {
     @apply text-secondary transition-all;
@@ -27,4 +27,22 @@ a:not(.link-icon), .link {
     @apply text-primary bg-secondary;
   }
 
+}
+
+/* same as link but without animation */
+.skip-to-content-link {
+    @apply text-primary p-2 inline-block;
+    &:hover {
+        @apply text-secondary transition-all;
+        background-size: 100% 100%;
+    }
+    transform: scaleY(0);
+    &:focus {
+        @apply outline-none shadow-outline-primary;
+        transform: scaleY(1);
+    }
+    background-image: linear-gradient(to top,var(--color-primary),var(--color-primary));
+    background-size: 100% 1px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
 }
