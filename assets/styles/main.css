@@ -38,6 +38,15 @@ html[data-theme="light"] {
     }
 }
 
+/*! Montserrat | SIL Open Font License | https://rikulaajala.com/assets/fonts/SIL-license.txt */
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @tailwind base;
 
 @tailwind components;
